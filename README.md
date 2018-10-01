@@ -1,6 +1,9 @@
 # 8-Bit TTL CPU
 The goal of this project is to design (and hopefully build) a fully functional TTL CPU using 7400 series logic chips.
 
+# The Architecture
+This cpu has two RAM chips. One 256x8 RAM chip for holding data and a 65536x24 program memory chip.
+
 ## Registers
 |  Register | Description |
 |  ------ | ------ |
