@@ -21,7 +21,7 @@ This cpu has two RAM chips. One 256x8 RAM chip for holding data and a 65536x24 p
 |  0000000000000000 | 00000000 | 0011 | JMP | Sets the value of the PC to the value of the address bits |
 |  0000000000000000 | 00000000 | 0100 | JC | If the carry register is set to one the PC is set to the value of the address bits |
 |  0000000000000000 | 00000000 | 0101 | LDA | Stores the value stored at the location pointed to by RA in RB |
-|  0000000000000000 | 00000000 | 0110 | STA | Stores the value in RB at the location pointed to by RA |
+|  0000000000000000 | 00000000 | 0110 | STB | Stores the value in RB at the location pointed to by RA |
 |  0000000000000000 | 00000000 | 0111 | PUT | Stores the data bits in RB |
 |  0000000000000000 | 00000000 | 1000 | INP | Stores the current value on the I/O bus in RB |
 |  0000000000000000 | 00000000 | 1001 | OUT | Sets the I/O bus to the value of RB |
