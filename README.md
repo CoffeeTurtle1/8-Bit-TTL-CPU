@@ -26,11 +26,3 @@ This cpu has two RAM chips. One 256x8 RAM chip for holding data and a 65536x24 p
 |  0000000000000000 | 00000000 | 1000 | INP | Stores the current value on the I/O bus in RB |
 |  0000000000000000 | 00000000 | 1001 | OUT | Sets the I/O bus to the value of RB |
 |  0000000000000000 | 00000000 | 1111 | HLT | Halts the CPU |
-
-## Clock cycle
-|  Cycle | Description |
-|  ------ | ------ |
-|  1 | Update instruction register and decode |
-|  2 | Increase the program counter by one and update other registers |
-|  3 | Do more stuff |
-|  4 | Do more stuff |
